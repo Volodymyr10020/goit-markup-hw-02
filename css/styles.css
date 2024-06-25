@@ -1,35 +1,39 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    font-weight: 400;
+    font-family: "Roboto",  sans-serif;
+    font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    color: #434455;
+    color: #2e2f42
     background-color: #fff;
 }
 .page-nav .link {
     color: #4D5AE5;
 }
-.page-nav .link:hover {
+.page-nav .link:hover,
+.page-nav .link:focus {
     color: #404BBF;
 }
-.section-title {
+.section-title { font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
+        line-height: 1.07;
         text-align: center;
+        letter-spacing: 0.02em;
         color: #fff;
         background-color: #2e2f42;
     }
 .button { 
     font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
 }
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: #404BBF;
 }
 .team-card {
@@ -43,24 +47,24 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;  
+        color: #4d5ae5;
     }
 
 .logo-bottom { font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 h2 {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -71,4 +75,31 @@ h3 {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+}
+h4 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+    }
+.link-name-top {
+    color: #2e2f42;
+}
+.link-name-bottom {
+    color: #f4f4fd;
+}
+.address {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        color: #434455;
+}
+.address .link:hover,
+.address .link:focus {
+    color: #404bbf;
 }
